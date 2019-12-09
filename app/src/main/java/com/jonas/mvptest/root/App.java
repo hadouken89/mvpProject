@@ -1,6 +1,8 @@
-package com.jonas.mvptest;
+package com.jonas.mvptest.root;
 
 import android.app.Application;
+
+import com.jonas.mvptest.DaggerApplicationComponent;
 
 public class App extends Application {
     private ApplicationComponent component;

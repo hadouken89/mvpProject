@@ -5,7 +5,7 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.jonas.mvptest.App;
+import com.jonas.mvptest.root.App;
 
 public class BaseActivity extends AppCompatActivity {
 
