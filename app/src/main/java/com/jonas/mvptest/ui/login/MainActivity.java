@@ -8,7 +8,12 @@ import android.widget.Toast;
 import com.jonas.mvptest.R;
 import com.jonas.mvptest.ui.base.BaseActivity;
 
+import javax.inject.Inject;
+
 public class MainActivity extends BaseActivity implements MainActivityMVP.View {
+
+    @Inject
+    MainActivityMVP.Presenter mainActivityPresenter;
 
     EditText firstName;
     EditText lastName;
