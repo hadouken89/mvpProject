@@ -4,7 +4,7 @@ import com.jonas.mvptest.model.User;
 
 public interface LoginRepository {
 
-    void saveUser();
+    void saveUser(User user);
 
     User getUser();
 }
