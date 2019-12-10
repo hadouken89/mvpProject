@@ -1,6 +1,6 @@
 package com.jonas.mvptest.root;
 
-import com.jonas.mvptest.ui.activities.BaseActivity;
+import com.jonas.mvptest.ui.base.BaseActivity;
 
 import javax.inject.Singleton;
 

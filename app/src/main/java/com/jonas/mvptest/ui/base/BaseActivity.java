@@ -1,4 +1,4 @@
-package com.jonas.mvptest.ui.login;
+package com.jonas.mvptest.ui.base;
 
 import android.os.Bundle;
 
